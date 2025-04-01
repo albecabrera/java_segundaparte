@@ -23,6 +23,11 @@ public class Main {
             System.out.println("El valor es: " + i);
             i++; // incremento
         } while (i < 10); // expresión
+
+        for (int j = 0; i < 5; j++) {
+            System.out.println("El va lor es " + j);
+        }
+
     }
 }
 
