@@ -6,6 +6,17 @@ class Usuario {
     int edad = 47;
     String direccion = "Kelterweg, 13, 53125, Bonn";
     String telefono = "0157768754";
+
+    // Método para mostrar la informacion del objeto
+    public void mostrarDatos() {
+        System.out.println("Nombre: " + nombre);
+        System.out.println("Apellido: " + apellido);
+        System.out.println("Edad: " + edad);
+        System.out.println("Direccion: " + direccion);
+        System.out.println("Telefono: " + telefono);
+
+
+    }
 }
 
 // Segunda clase
@@ -56,6 +67,11 @@ public class Main {
         usuario2.telefono = "0157000000";
         usuario2.direccion = "Pinar del Rio, Cuba";
 
+        // Llamada de método de introducción al objeto
+        usuario1.mostrarDatos();
+        usuario2.mostrarDatos();
+
+
 
         System.out.println(usuario1.nombre);
         System.out.println(usuario1.apellido);
@@ -68,6 +84,8 @@ public class Main {
         System.out.println(usuario2.edad);
         System.out.println(usuario2.direccion);
         System.out.println(usuario2.telefono);
+
+
 
 
 
